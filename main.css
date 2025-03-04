@@ -1,44 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&family=Stint+Ultra+Condensed&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rozha+One&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&family=Syne:wght@400..800&display=swap');
 
 
 /* *{
     border: tomato 1px solid;
 } */
 
+@font-face {
+    font-family: 'MingLiu';
+    src: url('/fonts/mingliu.woff') format('woff'), 
+         url('/fonts/mingliu.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
 .sofia{
     font-family: "Sofia Sans Condensed", sans-serif;
   }
 
-p{
-    font-size: 20px;
-    font-weight: 200;
+.slab{
+    font-family: "MingLiu", serif;
 }
 
-h2{
-    font-size: 40px;
-}
-
-h1{
-    font-size: 100px;
-    line-height: 80px;
-}
-
-@media (max-width: 500px) {
-    *{
-        font-size: 10px;
-    }
-
-    h1 {
-        font-size: 80px;
-    }
-
-    h2{
-        font-size: 30px;
-    }
-
-    p{
-        font-size: 17px;
-        font-weight: 300;
-    }
-}
