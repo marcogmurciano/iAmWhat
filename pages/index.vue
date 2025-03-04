@@ -1,7 +1,7 @@
 <template class="bg-black">
     <title>I am what i am // invitación</title>
     <div class="flex flex-col text-center p-5 sofia bg-[#24032B]">
-        <div class="md:w-[50%] md:pt-[14%] pt-20 w-[90%] mx-auto  gap-[2rem] flex flex-col">
+        <div class="md:w-[50%] pt-20 w-[90%] mx-auto  gap-[2rem] flex flex-col">
             <h1 ref="neonText" class="neon-pink slab whitespace-nowrap">I AM WHAT I AM</h1>
             <div class="flex flex-col gap-[1.1rem] text-white">
                 <p class="text-[#EA52EA] uppercase">
@@ -9,11 +9,7 @@
                     Sissy Bag <br> C. de Pelayo, 42, Centro, 28004 Madrid
                     <br> 21:00
                 </p>
-                <iframe class="mt-8" width="100%" height="315"
-                    src="https://www.youtube.com/embed/rs-2T6u1E2M?si=oBvzK2fYC6G3LfVI" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe class="mt-8" width="100%" height="315" src="https://www.youtube.com/embed/jdlvWIJlI50?si=RmhX8Fr1M8oOPHn2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <div class="flex mx-auto mt-20 mb-14">
                     <PhArrowFatDown ref="neonArr" class="arrow-pink" :size="128" />
                 </div>
